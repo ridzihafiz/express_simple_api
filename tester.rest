@@ -1,0 +1,28 @@
+### create notes
+POST http://localhost:9000/note/create
+Content-Type: application/json
+
+{
+  "title": "Apa aja dah",
+  "content": "Germany Kalah",
+  "author": "RidHafiz"
+}
+
+
+### read notes
+GET http://localhost:9000/note/read
+
+
+### delete notes
+DELETE http://localhost:9000/note/delete/3
+Content-Type: application/json
+
+### update notes
+PUT http://localhost:9000/note/update/5
+Content-Type: application/json
+
+{
+  "title": "Hitler",
+  "content": "Perang Dunia 3",
+  "author": "RidHafiz"
+}
